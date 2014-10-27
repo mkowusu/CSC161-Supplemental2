@@ -1,0 +1,123 @@
+Michael Owusu
+Professor Walker
+Com Sci 161-2
+2/18/14
+
+Times for Walking and Running
+
+Testing for this problem is pretty straightforward. If the values calculated are correct than my code is working correctly. This can be checked by running the program, choosing a few values to calculate by hand, and then comparing them to what is in the chart.
+
+Proof that my code works:
+
+
+                    Speed in MPH and KPH, Given Time for 1/4 mile
+
+                                      Minutes
+Seconds      3              4              5             6                7
+    0    5.0/ 8.0       3.8/ 6.0       3.0/ 4.8      2.5/ 2.5         2.1/ 3.4
+    1    5.0/ 8.0       3.7/ 6.0       3.0/ 4.8      2.5/ 2.5         2.1/ 3.4
+    2    4.9/ 7.9       3.7/ 6.0       3.0/ 4.8      2.5/ 2.5         2.1/ 3.4
+    3    4.9/ 7.9       3.7/ 5.9       3.0/ 4.8      2.5/ 2.5         2.1/ 3.4
+    4    4.9/ 7.8       3.7/ 5.9       3.0/ 4.7      2.5/ 2.5         2.1/ 3.4
+    5    4.9/ 7.8       3.7/ 5.9       3.0/ 4.7      2.5/ 2.5         2.1/ 3.4
+    6    4.8/ 7.8       3.7/ 5.9       2.9/ 4.7      2.5/ 2.5         2.1/ 3.4
+    7    4.8/ 7.7       3.6/ 5.8       2.9/ 4.7      2.5/ 2.5         2.1/ 3.4
+    8    4.8/ 7.7       3.6/ 5.8       2.9/ 4.7      2.4/ 2.4         2.1/ 3.4
+    9    4.8/ 7.6       3.6/ 5.8       2.9/ 4.7      2.4/ 2.4         2.1/ 3.4
+   10    4.7/ 7.6       3.6/ 5.8       2.9/ 4.7      2.4/ 2.4         2.1/ 3.4
+   11    4.7/ 7.6       3.6/ 5.7       2.9/ 4.6      2.4/ 2.4         2.1/ 3.3
+   12    4.7/ 7.5       3.6/ 5.7       2.9/ 4.6      2.4/ 2.4         2.1/ 3.3
+   13    4.7/ 7.5       3.6/ 5.7       2.9/ 4.6      2.4/ 2.4         2.1/ 3.3
+   14    4.6/ 7.4       3.5/ 5.7       2.9/ 4.6      2.4/ 2.4         2.1/ 3.3
+   15    4.6/ 7.4       3.5/ 5.7       2.9/ 4.6      2.4/ 2.4         2.1/ 3.3
+   16    4.6/ 7.4       3.5/ 5.6       2.8/ 4.6      2.4/ 2.4         2.1/ 3.3
+   17    4.6/ 7.3       3.5/ 5.6       2.8/ 4.6      2.4/ 2.4         2.1/ 3.3
+   18    4.5/ 7.3       3.5/ 5.6       2.8/ 4.5      2.4/ 2.4         2.1/ 3.3
+   19    4.5/ 7.3       3.5/ 5.6       2.8/ 4.5      2.4/ 2.4         2.1/ 3.3
+   20    4.5/ 7.2       3.5/ 5.6       2.8/ 4.5      2.4/ 2.4         2.0/ 3.3
+   21    4.5/ 7.2       3.4/ 5.5       2.8/ 4.5      2.4/ 2.4         2.0/ 3.3
+   22    4.5/ 7.1       3.4/ 5.5       2.8/ 4.5      2.4/ 2.4         2.0/ 3.3
+   23    4.4/ 7.1       3.4/ 5.5       2.8/ 4.5      2.3/ 2.3         2.0/ 3.3
+   24    4.4/ 7.1       3.4/ 5.5       2.8/ 4.5      2.3/ 2.3         2.0/ 3.3
+   25    4.4/ 7.0       3.4/ 5.4       2.8/ 4.4      2.3/ 2.3         2.0/ 3.2
+   26    4.4/ 7.0       3.4/ 5.4       2.8/ 4.4      2.3/ 2.3         2.0/ 3.2
+   27    4.3/ 7.0       3.4/ 5.4       2.8/ 4.4      2.3/ 2.3         2.0/ 3.2
+   28    4.3/ 6.9       3.4/ 5.4       2.7/ 4.4      2.3/ 2.3         2.0/ 3.2
+   29    4.3/ 6.9       3.3/ 5.4       2.7/ 4.4      2.3/ 2.3         2.0/ 3.2
+   30    4.3/ 6.9       3.3/ 5.3       2.7/ 4.4      2.3/ 2.3         2.0/ 3.2
+   31    4.3/ 6.8       3.3/ 5.3       2.7/ 4.4      2.3/ 2.3         2.0/ 3.2
+   32    4.2/ 6.8       3.3/ 5.3       2.7/ 4.3      2.3/ 2.3         2.0/ 3.2
+   33    4.2/ 6.8       3.3/ 5.3       2.7/ 4.3      2.3/ 2.3         2.0/ 3.2
+   34    4.2/ 6.7       3.3/ 5.3       2.7/ 4.3      2.3/ 2.3         2.0/ 3.2
+   35    4.2/ 6.7       3.3/ 5.2       2.7/ 4.3      2.3/ 2.3         2.0/ 3.2
+   36    4.2/ 6.7       3.3/ 5.2       2.7/ 4.3      2.3/ 2.3         2.0/ 3.2
+   37    4.1/ 6.7       3.2/ 5.2       2.7/ 4.3      2.3/ 2.3         2.0/ 3.2
+   38    4.1/ 6.6       3.2/ 5.2       2.7/ 4.3      2.3/ 2.3         2.0/ 3.2
+   39    4.1/ 6.6       3.2/ 5.2       2.7/ 4.3      2.3/ 2.3         2.0/ 3.1
+   40    4.1/ 6.6       3.2/ 5.2       2.6/ 4.2      2.2/ 2.2         2.0/ 3.1
+   41    4.1/ 6.5       3.2/ 5.1       2.6/ 4.2      2.2/ 2.2         2.0/ 3.1
+   42    4.1/ 6.5       3.2/ 5.1       2.6/ 4.2      2.2/ 2.2         1.9/ 3.1
+   43    4.0/ 6.5       3.2/ 5.1       2.6/ 4.2      2.2/ 2.2         1.9/ 3.1
+   44    4.0/ 6.4       3.2/ 5.1       2.6/ 4.2      2.2/ 2.2         1.9/ 3.1
+   45    4.0/ 6.4       3.2/ 5.1       2.6/ 4.2      2.2/ 2.2         1.9/ 3.1
+   46    4.0/ 6.4       3.1/ 5.0       2.6/ 4.2      2.2/ 2.2         1.9/ 3.1
+   47    4.0/ 6.4       3.1/ 5.0       2.6/ 4.2      2.2/ 2.2         1.9/ 3.1
+   48    3.9/ 6.3       3.1/ 5.0       2.6/ 4.1      2.2/ 2.2         1.9/ 3.1
+   49    3.9/ 6.3       3.1/ 5.0       2.6/ 4.1      2.2/ 2.2         1.9/ 3.1
+   50    3.9/ 6.3       3.1/ 5.0       2.6/ 4.1      2.2/ 2.2         1.9/ 3.1
+   51    3.9/ 6.2       3.1/ 5.0       2.6/ 4.1      2.2/ 2.2         1.9/ 3.1
+   52    3.9/ 6.2       3.1/ 4.9       2.6/ 4.1      2.2/ 2.2         1.9/ 3.1
+   53    3.9/ 6.2       3.1/ 4.9       2.5/ 4.1      2.2/ 2.2         1.9/ 3.1
+   54    3.8/ 6.2       3.1/ 4.9       2.5/ 4.1      2.2/ 2.2         1.9/ 3.0
+   55    3.8/ 6.1       3.1/ 4.9       2.5/ 4.1      2.2/ 2.2         1.9/ 3.0
+   56    3.8/ 6.1       3.0/ 4.9       2.5/ 4.1      2.2/ 2.2         1.9/ 3.0
+   57    3.8/ 6.1       3.0/ 4.9       2.5/ 4.0      2.2/ 2.2         1.9/ 3.0
+   58    3.8/ 6.1       3.0/ 4.8       2.5/ 4.0      2.2/ 2.2         1.9/ 3.0
+   59    3.8/ 6.0       3.0/ 4.8       2.5/ 4.0      2.1/ 2.1         1.9/ 3.0
+
+
+The supplemental problem states that:
+
+"If an individual covers 1/4 mile in 5 minutes, 30 seconds, then the person is traveling about 2.7 miles per hour (MPH) or, equivalently, 4.4 kilometers per hour (KPH)."
+
+If you refer to the included table,  the intersection of 5 minutes and 30 seconds is:
+
+ 2.7/ 4.4
+
+Potential Problems
+
+1. Check whether code will work for times other than 5 mins and 30 seconds
+2. Make sure that kilometers are calculated correctly
+3. Make sure that time is calculated correctly without seconds
+
+
+Tests
+
+1./2. Let's try 3 minutes and 20 seconds. If the numbers obtained from calculating by hand are correct for both mph and kph, then both test case number 1 and 2 are checked. 
+
+From calculation by hand:
+
+3 minutes and 20 seconds = 200 seconds.
+Convert to minutes by dividing by 60 = 3.33333333
+Multiply by 4 to get estimated mile time = 13.3333333
+Divide 60 by above answer to get MPH time = 4.5/mph
+
+To calculate kph, simply multiply by 1.60344 which equals: 7.21548
+
+Now to compare with the table I developed, we can check its value at the intersection of 3 minutes and 20 seconds. The value is:
+
+4.5/ 7.2
+
+3. Just to be extra sure the code works we can try a quarter mile time without seconds. Lets do a minute we haven't tried yet. Say 7.
+
+By hand we get that if it takes you 7 minutes to walk a quarter mile then it takes you 28 minutes to walk 1 mile. That means that your mph is about 2.14285. That makes your kph about 3.4359. 
+
+Now to compare with the table I developed, we can check its value at the intersection of 7 minutes and 0 seconds. The value is:
+
+2.1/ 3.4
+
+
+Note: There are potentially other tests that could be carried out with respect to this program, the tests above, however, I felt were most necessary concerning the nature of this problem. 
+
+Summary:
+Through testing I am able to show that my code is correct. It displays the correct values as is its purpose and the answers from the chart is consistent with hand calculations.
